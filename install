@@ -1,0 +1,16 @@
+:
+#
+PHP=`which php`
+DIR=`dirname $0`
+CMD=install
+#
+echo -n "Install this application? [yN]: "
+read entry
+#
+if [ $entry = "y" -o $entry = "Y" ]; then
+  $PHP -f $DIR/index.php $CMD
+  exit 0
+fi
+#
+echo "abort."
+#

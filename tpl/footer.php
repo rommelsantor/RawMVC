@@ -1,0 +1,5 @@
+<?=$foottags?>
+
+</body>
+</html>
+
